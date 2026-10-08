@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abu Bakar Ali | Associate Engineer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#0b0f14;
+    color:#fff;
+    line-height:1.6;
+}
+
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:rgba(11,15,20,.85);
+    backdrop-filter:blur(12px);
+    z-index:1000;
+}
+
+.logo{
+    font-size:23px;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.logo span{
+    color:#00d4a8;
+}
+
+nav a{
+    color:#ddd;
+    text-decoration:none;
+    margin-left:25px;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#00d4a8;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding:120px 8% 60px;
+    background:
+    radial-gradient(circle at 80% 20%,rgba(0,212,168,.15),transparent 30%),
+    radial-gradient(circle at 20% 80%,rgba(0,212,168,.08),transparent 30%);
+}
+
+.hero-content{
+    max-width:850px;
+}
+
+.small{
+    color:#00d4a8;
+    font-size:17px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+h1{
+    font-size:clamp(50px,8vw,90px);
+    line-height:1.05;
+    margin:15px 0;
+}
+
+h1 span{
+    color:#00d4a8;
+}
+
+.hero p{
+    max-width:650px;
+    color:#aeb7c2;
+    font-size:19px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:13px 25px;
+    border-radius:30px;
+    text-decoration:none;
+    margin-right:10px;
+    transition:.3s;
+}
+
+.primary{
+    background:#00d4a8;
+    color:#06100d;
+    font-weight:bold;
+}
+
+.primary:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 30px rgba(0,212,168,.25);
+}
+
+.secondary{
+    border:1px solid #333;
+    color:white;
+}
+
+.secondary:hover{
+    border-color:#00d4a8;
+    color:#00d4a8;
+}
+
+section{
+    padding:100px 8%;
+}
+
+.title{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    color:#87919c;
+    margin-bottom:45px;
+}
+
+.about{
+    max-width:850px;
+}
+
+.about p{
+    color:#b9c1ca;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+}
+
+.card{
+    background:#111820;
+    border:1px solid #202b35;
+    padding:30px;
+    border-radius:18px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-7px);
+    border-color:#00d4a8;
+}
+
+.card h3{
+    color:#00d4a8;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#929da8;
+}
+
+.instagram{
+    background:linear-gradient(135deg,#111820,#15131d);
+    text-align:center;
+    border-top:1px solid #202b35;
+    border-bottom:1px solid #202b35;
+}
+
+.insta-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 30px;
+    background:#fff;
+    color:#111;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.insta-btn:hover{
+    background:#00d4a8;
+    transform:translateY(-3px);
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#69737e;
+    border-top:1px solid #202b35;
+}
+
+@media(max-width:800px){
+    nav{
+        padding:18px 5%;
+    }
+
+    nav div:last-child{
+        display:none;
+    }
+
+    .hero{
+        padding-left:6%;
+        padding-right:6%;
+    }
+
+    section{
+        padding:75px 6%;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    h1{
+        font-size:55px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Abu Bakar<span>.</span></div>
+
+```
+<div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</div>
+```
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero" id="home">
+    <div class="hero-content">
+
+```
+    <div class="small">Welcome to my world</div>
+
+    <h1>
+        I'm <span>Abu Bakar Ali.</span>
+    </h1>
+
+    <p>
+        An Associate Engineer with a passion for technology,
+        creativity and continuous growth. I believe in learning,
+        building and becoming better every day.
+    </p>
+
+    <a class="btn primary" href="#about">Discover Me</a>
+
+    <a class="btn secondary"
+       href="https://www.instagram.com/itx_abk10/"
+       target="_blank">
+       Instagram
+    </a>
+
+</div>
+```
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+```
+<h2 class="title">Who I Am</h2>
+
+<p class="subtitle">
+    More than a title — this is a little about me.
+</p>
+
+<div class="about">
+
+    <p>
+        My name is <strong>Abu Bakar Ali</strong>. I am an
+        <strong>Associate Engineer</strong> who enjoys exploring
+        technology, developing new skills and turning ideas into
+        something meaningful.
+    </p>
+
+    <p>
+        I am someone who believes that success is not achieved
+        overnight. It is built through consistency, curiosity,
+        discipline and the willingness to keep learning.
+    </p>
+
+    <p>
+        I am constantly working on myself — improving my technical
+        abilities, learning new things and looking for opportunities
+        that allow me to grow both personally and professionally.
+    </p>
+
+</div>
+```
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+```
+<h2 class="title">What Defines Me</h2>
+
+<p class="subtitle">
+    A few things that represent my mindset and personality.
+</p>
+
+<div class="cards">
+
+    <div class="card">
+        <h3>⚙ Engineering</h3>
+        <p>
+            As an Associate Engineer, I have an interest in
+            technical work, problem solving and understanding
+            how things work.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>💡 Creativity</h3>
+        <p>
+            I enjoy exploring new ideas and finding modern,
+            simple and creative ways to approach challenges.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>🚀 Growth</h3>
+        <p>
+            Learning never stops. I believe every experience
+            is an opportunity to improve and move forward.
+        </p>
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- INSTAGRAM -->
+
+<section class="instagram">
+
+```
+<h2 class="title">Let's Connect</h2>
+
+<p class="subtitle">
+    Follow my journey, interests and moments.
+</p>
+
+<a class="insta-btn"
+   href="https://www.instagram.com/itx_abk10/"
+   target="_blank">
+   Instagram · @itx_abk10
+</a>
+```
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+```
+<h2 class="title">Get In Touch</h2>
+
+<p class="subtitle">
+    Thanks for visiting my personal website.
+</p>
+
+<a class="btn primary"
+   href="https://www.instagram.com/itx_abk10/"
+   target="_blank">
+   Message Me
+</a>
+```
+
+</section>
+
+<footer>
+    © 2026 Abu Bakar Ali · Built with passion.
+</footer>
+
+</body>
+</html>
